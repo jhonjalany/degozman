@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Gozman</title>
+  <style>
+    .home {
+      height: 100vh;
+      width: 100%;
+    }
+    .title {
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .products {
+      font-size: 40px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .list2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    .product {
+      height: 500px;
+      width: 700px;
+    }
+    .name {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .size {
+      font-size: 25px;
+    }
+    @media screen and (width <= 500px) {
+      .home {
+        height: 50vh;
+        
+      }
+      .product {
+        height: 200px;
+        width: 300px;
+      }
+      .name {
+        font-size: 20px;
+      }
+      .size {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p class="title">Milktea Shop</p>
+  <div>
+    <img class="home" src="home.jpg" alt="">
+  </div>
+  <p class="products">Products</p>
+  <div class="list">
+    <div class="list2">
+      <div>
+        <img class="product" src="caramel.jpg" alt="">
+      </div>
+      <div class="name">
+        Caramel Milktea
+      </div>
+      <div class="size">
+        Small: 50 <br>Medium: 70 <br> Large: 100
+      </div>
+    </div>
+    <div class="list2">
+      <div>
+        <img class="product" src="chocolate.jpg" alt="">
+      </div>
+      <div class="name">
+        Chocolate Milktea
+      </div>
+      <div class="size">
+        Small: 50 <br>Medium: 70 <br> Large: 100
+      </div>
+    </div>
+    <div class="list2">
+      <div>
+        <img class="product" src="coffee.jpg" alt="">
+      </div>
+      <div class="name">
+        Coffee Milktea
+      </div>
+      <div class="size">
+        Small: 50 <br>Medium: 70 <br> Large: 100
+      </div>
+    </div>
+    <div class="list2">
+      <div>
+        <img class="product" src="oreo.jpg" alt="">
+      </div>
+      <div class="name">
+        Creamy Oreo Milktea
+      </div>
+      <div class="size">
+        Small: 50 <br>Medium: 70 <br> Large: 100
+      </div>
+    </div>
+    <div class="list2">
+      <div>
+        <img class="product" src="strawberry.jpg" alt="">
+      </div>
+      <div class="name">
+        Strawberry Milktea
+      </div>
+      <div class="size">
+        Small: 50 <br>Medium: 70 <br> Large: 100 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
